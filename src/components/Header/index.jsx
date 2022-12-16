@@ -3,7 +3,7 @@ import gsap from "gsap";
 import SplitText from "../../utils/Split3.min.js";
 import "./styles.scss";
 import { useEffect } from "react";
-import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
+import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
 import Banner from "../Banner/Banner.jsx";
 
 function Header() {
