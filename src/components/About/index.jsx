@@ -37,7 +37,7 @@ function About() {
       className={cn("about-section", { "is-reveal": reveal })}
       data-scroll-section
     >
-      <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
+      <p ref={ref} id="about-text" className={cn({ "is-reveal": reveal })}>
         At NXT Digital Agency, we believe that a website is more than just a
         digital storefront - it's an extension of your brand. We take a holistic
         approach to web development, combining creative design with technical

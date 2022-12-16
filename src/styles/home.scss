@@ -12,13 +12,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  width: 100%;
   cursor: none;
   background-color: $bg-color;
-  @media only screen and (max-device-width: 600px) {
-    height: 50%;
-    width: 50%;
-  }
 }
 
 .main-container {

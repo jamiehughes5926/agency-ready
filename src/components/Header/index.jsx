@@ -3,7 +3,8 @@ import gsap from "gsap";
 import SplitText from "../../utils/Split3.min.js";
 import "./styles.scss";
 import { useEffect } from "react";
-import { AnimateSharedLayout } from "framer-motion";
+import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
+import Banner from "../Banner/Banner.jsx";
 
 function Header() {
   useEffect(() => {
@@ -26,10 +27,13 @@ function Header() {
       <ul className="header-menu"></ul>
       <div className="container">
         <AnimateSharedLayout>
-          <div className="title-container">
-            <h1 id="header-text">WE CREATE</h1>
-            <h1 id="header-text">DIGITAL PRODUCTS</h1>
-          </div>
+          <AnimatePresence>
+            <div className="title-container">
+              <h1 id="header-text">WE CREATE</h1>
+              <h1 id="header-text">DIGITAL </h1>
+              <Banner />
+            </div>
+          </AnimatePresence>
         </AnimateSharedLayout>
       </div>
     </section>

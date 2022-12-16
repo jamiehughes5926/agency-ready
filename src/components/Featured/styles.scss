@@ -11,6 +11,10 @@
     &.is-reveal {
       clip-path: inset(0% 0% 0% 0%);
     }
+    @media only screen and (max-width: 700px) {
+      /* Mobile-specific styles go here */
+      height: 400px;
+    }
   }
 
   h6 {
