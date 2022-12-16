@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import cn from "classnames";
-import "./contact.scss";
 
 import gsap from "gsap";
 import SplitText from "../../utils/Split3.min";
@@ -34,10 +33,7 @@ function About() {
   }, [reveal]);
 
   return (
-    <section
-      className={cn("about-section", { "is-reveal": reveal })}
-      data-scroll-section
-    >
+    <section className={cn("about-section", { "is-reveal": reveal })}>
       <p ref={ref} id="headline" className={cn({ "is-reveal": reveal })}>
         At NXT Digital Agency, we believe that a website is more than just a
         digital storefront - it's an extension of your brand. We take a holistic

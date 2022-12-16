@@ -15,6 +15,10 @@ body {
 
   cursor: none;
   background-color: $bg-color;
+  @media only screen and (max-device-width: 600px) {
+    height: 50%;
+    width: 50%;
+  }
 }
 
 .main-container {

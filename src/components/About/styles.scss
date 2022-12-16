@@ -23,12 +23,13 @@
 #headline {
   font-family: "Poppins", sans-serif;
   color: black;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 30px;
 
   font-size: x-large;
   text-align: start;
   @media screen and (max-width: 600px) {
     font-size: 20px;
+    margin-bottom: -250px;
   }
 }
