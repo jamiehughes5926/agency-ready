@@ -7,6 +7,7 @@ import About from "../components/About";
 import Gallery from "../components/Gallery";
 import Featured from "../components/Featured";
 import CustomCursor from "../CustomCursor";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [preloader, setPreloader] = useState(true);
@@ -54,6 +55,7 @@ const Home = () => {
           <About />
           <Gallery />
           <Featured />
+          <Footer />
         </div>
       )}
     </>

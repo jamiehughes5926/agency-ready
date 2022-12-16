@@ -1,0 +1,16 @@
+.footer {
+  text-align: right;
+  padding-bottom: 100px;
+  margin-top: -100;
+}
+
+.location {
+  font-size: 10vw;
+  text-transform: uppercase;
+  font-family: "Bondoni Moda", serif;
+  font-weight: 500;
+
+  &.is-reveal {
+    opacity: 1;
+  }
+}
