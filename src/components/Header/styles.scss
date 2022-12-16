@@ -1,0 +1,39 @@
+.header-container {
+  position: relative;
+
+  .header-menu {
+    position: absolute;
+    left: 0;
+    top: 10px;
+
+    letter-spacing: 1px;
+    font-family: "Syncopate", sans-serif;
+    color: #626262;
+    text-transform: uppercase;
+    font-weight: 600;
+    li {
+      margin: 10px 0;
+    }
+  }
+  #header-text {
+    font-size: 10vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+}
+
+.lineChildren {
+  transform: translate(0, 500px);
+}
+
+.lineParent {
+  overflow: hidden;
+}
+
+.title-container {
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
