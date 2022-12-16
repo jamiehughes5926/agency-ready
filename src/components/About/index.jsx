@@ -2,8 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import cn from "classnames";
 import "./contact.scss";
 
-import SectionHeader from "../SectionHeader";
-
 import gsap from "gsap";
 import SplitText from "../../utils/Split3.min";
 import useOnScreen from "../../hooks/useOnScreen";
